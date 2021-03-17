@@ -3,6 +3,8 @@ import pathlib
 
 
 def read_data(filename):
+    # Read in some static JSON data
+    # In the real world, you might have other functions to pull from an API 
     path = pathlib.Path.cwd() / filename
     with open(path, mode='r') as file_data:
         data = json.load(file_data)
