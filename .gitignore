@@ -1,2 +1,11 @@
-# ignore venv from week 2
+# ignore venvs
 */example-venv/
+
+# ignore creds file from week 3
+*/creds*
+
+# ignore vscode settings
+*.vscode*
+
+# ignore pycache folders
+*pycache*
